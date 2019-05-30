@@ -5,7 +5,7 @@ class Author
   @@all_posts = []
 
   def initialize(name)
-    @title = name
+    @name = name
     @posts = []
   end
 
